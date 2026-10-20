@@ -1,0 +1,32 @@
+CENDRES D'AETHEL — PACK WINDOWS + LINUX
+
+CONTENU
+- cendres_d_aethel.py : édition Ultra Hard avec options ajoutées et gestion de l'absence d'audio.
+- cendres_d_aethel_monde_ouvert.py : édition action-RPG en monde ouvert.
+- Les sources et sauvegardes sont conservées séparément.
+
+WINDOWS
+1. Installe Python 3 depuis https://www.python.org/downloads/windows/ (coche « Add Python to PATH »).
+2. Extrais tout le ZIP dans un dossier.
+3. Double-clique sur Lancer_Windows.bat et choisis 1 ou 2.
+Le lanceur crée un environnement virtuel local et installe pygame-ce dedans.
+
+LINUX (Ubuntu/Debian)
+1. Installe les prérequis si nécessaire :
+   sudo apt update
+   sudo apt install python3-venv python3-full
+2. Extrais le ZIP et ouvre un terminal dans le dossier Cendres_d_Aethel.
+3. Lance : chmod +x Lancer_Mac_Linux.sh
+4. Puis : ./Lancer_Mac_Linux.sh
+Le lanceur crée un environnement virtuel local et installe pygame-ce dedans, sans toucher au Python système.
+
+COMMANDES DU JEU MONDE OUVERT
+ZQSD / WASD / flèches : déplacement; souris : viser; clic gauche/Espace : épée;
+clic droit/E : boule de braise; Maj : roulade; R : potion; F/Entrée : interagir;
+M : carte; Échap : pause/menu/sauvegarde; F11 : plein écran/fenêtre.
+
+NOTES
+- Une connexion Internet est nécessaire lors de la première installation des dépendances.
+- Le code Ultra Hard a une protection pour pouvoir démarrer si le module audio n'est pas disponible.
+- La syntaxe Python est vérifiée, mais le jeu n'a pas été testé graphiquement sur Windows ou Linux.
+- Ce pack n'est pas un exécutable autonome : Python 3 est nécessaire.

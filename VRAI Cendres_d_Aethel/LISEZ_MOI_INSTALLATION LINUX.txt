@@ -1,0 +1,21 @@
+CENDRES D'AETHEL — PACK DE PRÉPARATION DES INSTALLATEURS
+
+LINUX (installation avec raccourci)
+1. Décompressez ce dossier.
+2. Dans un terminal ouvert ici, exécutez : chmod +x Installer_Linux.sh
+3. Puis : ./Installer_Linux.sh
+4. Le jeu sera copié dans ~/.local/share/cendres-daethel et un raccourci sera créé dans le menu Applications et, si détecté, sur le Bureau.
+5. Au premier lancement, le lanceur crée un environnement Python local et installe les dépendances. Ubuntu/Debian peut demander : sudo apt install python3-venv python3-full
+si cela ne marche pas
+6. dans le terminal = cd puis cd VRAI Cendres_d_Aethel puis cd Jeu puis python3 cendres_d_aethel.py
+WINDOWS (.exe + installateur avec raccourci)
+Le fichier EXE doit être construit sur Windows : cette archive ne contient pas encore un exécutable Windows compilé.
+1. Installez Python 3 depuis python.org et cochez l'ajout au PATH.
+2. Double-cliquez Construire_EXE_Windows.bat.
+3. L'exécutable apparaîtra dans dist\Cendres d'Aethel.exe.
+4. Pour produire un installateur classique avec raccourci bureau, installez Inno Setup, ouvrez Installateur_Windows.iss et cliquez Compile.
+
+À SAVOIR
+- Le code de l'édition Ultra Hard a une protection pour ne pas bloquer le démarrage si le mixer audio est absent.
+- Syntaxe du code contrôlée; l'exécution graphique complète n'a pas été testée ici.
+- Les scripts d'installation Windows sont fournis, mais la compilation EXE et le test doivent être faits sur Windows.
